@@ -2,24 +2,24 @@ body, h1, h3 {
     padding: 0;
     margin: 0;
   }
-  
+ 
   body {
     color: #ffffff;
-    background: rgb(43, 43, 43);
+    background: rgb(253, 252, 255);
     font-family: "Inconsolata", monospace;
   }
-  
+ 
   main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
-  
+ 
   label {
     display: block;
   }
-  
+ 
   h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -28,35 +28,35 @@ body, h1, h3 {
     letter-spacing: 5px;
     color: #ffffff;
   }
-  
+ 
   span {
-    color: #19c9a3;
+    color: #fffbfb;
   }
-  
+ 
   h3 {
     text-align: center;
     font-family: "Inconsolata", monospace;
     font-weight: 400;
     font-size: 0.875rem;
     margin-bottom: 20px;
-    color: #19c9a3;
+    color: #ffffff;
   }
-  
+ 
   #mensagem {
-    background: rgba(215, 212, 208, 0.3);
-    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+    background: rgba(215, 212, 208, 0.999);
+    box-shadow: 0px 4px 13px rgb(248, 246, 255);
     border: none;
     border-radius: 4px;
     outline: none;
     margin-bottom: 20px;
   }
-  
+ 
   textarea {
     font-family: "Inconsolata", monospace;
     font-weight: 400;
     font-size: 0.875rem;
     padding: 10px;
-    color: #afafaf;
+    color: #000000;
   }
   select {
     width: 100%;
@@ -71,13 +71,13 @@ body, h1, h3 {
   .radio {
     display: flex;
     gap: 5px;
-    color: #19c9a3;
+    color: #fefeff;
     place-items: center;
   }
-  
+ 
   input[type="radio"] {
     outline: none;
-    accent-color: #19c9a3;
+    accent-color: #050607;
     width: 20px;
     height: 20px;
   }
@@ -88,55 +88,55 @@ body, h1, h3 {
     justify-content: center;
     padding: 20px;
   }
-  
+ 
   .btn {
     display: flex;
     justify-content: center;
   }
-  
+ 
   button {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
     border: none;
     padding: 8px;
     border-radius: 5px;
-    color: #19c9a3;
+    color: #091c52;
     margin-bottom: 20px;
     font-family: "Inconsolata", monospace;
     width: 100%;
     cursor: pointer;
     transition: 0.3s;
   }
-  
+ 
   button:focus {
-    outline: solid 1px #19c9a3;
+    outline: solid 1px #ffffff;
   }
-  
+ 
   button:hover {
     background-color: #000;
   }
-  
+ 
   form {
     display: flex;
     flex-direction: column;
   }
-  
+ 
   .mensagem {
-    background: rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+    background: rgb(255, 253, 253);
+    box-shadow: 0px 4px 13px rgb(255, 252, 252);
     border: none;
     border-radius: 4px;
     outline: none;
     margin-bottom: 20px;
   }
-  
+ 
   .slider-range {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
   }
-  
+ 
   input[type="number"] {
     width: 30px;
     background-color: rgba(138, 138, 138, 0.2);
@@ -149,39 +149,39 @@ body, h1, h3 {
     outline: none;
     font-family: "Inconsolata", monospace;
   }
-  
+ 
   .chave {
     text-align: center;
     margin-bottom: 10px;
     color: #afafaf;
     font-size: 0.875rem;
   }
-  
+ 
   .chave-container {
     display: none;
   }
-  
+ 
   .range {
     -webkit-appearance: none;
     height: 10px;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(255, 255, 255);
     outline: none;
     cursor: ew-resize;
     border-radius: 5px;
   }
-  
+ 
   input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 12px;
     width: 10px;
-    background-color: #19c9a3;
+    background-color: #091c52;
     border-radius: 2px;
   }
-  
+ 
   .social {
     display: flex;
     place-content: center;
     gap: 20px;
   }
-  
-  
+ 
+ 
